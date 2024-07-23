@@ -17,7 +17,7 @@ namespace Try_SQL
         public Main()
         {
             InitializeComponent();
-            string connectionString = "server=bim0kocn6y1cl68dqubs-mysql.services.clever-cloud.com; port=3306; uid=uqxgtqpeddttg9sy; password=04ZyZyOirrniHV6OZUjb";
+            string connectionString = "server=localhost; port=1433; uid=your_username; password=your_password";
             mySQLCommand = new MySQLCommand(connectionString);
         }
 
